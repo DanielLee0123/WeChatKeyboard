@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Scheme
+   version = "1.3">
+   <BuildAction>
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForRunning = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "7E97BFDA2403673B00E87A54"
+               BuildableName = "WeChat-KeyboardDemo.app"
+               BlueprintName = "WeChat-KeyboardDemo"
+               ReferencedContainer = "container:WeChat-KeyboardDemo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
+   </BuildAction>
+   <LaunchAction
+      useCustomWorkingDirectory = "NO"
+      buildConfiguration = "Debug">
+      <BuildableProductRunnable>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "7E97BFDA2403673B00E87A54"
+            BuildableName = "WeChat-KeyboardDemo.app"
+            BlueprintName = "WeChat-KeyboardDemo"
+            ReferencedContainer = "container:WeChat-KeyboardDemo.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
+   </LaunchAction>
+</Scheme>

@@ -1,0 +1,764 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E97BFE02403673B00E87A54 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E97BFDF2403673B00E87A54 /* AppDelegate.m */; };
+		7E97BFE62403673B00E87A54 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E97BFE52403673B00E87A54 /* ViewController.m */; };
+		7E97BFEB2403673D00E87A54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E97BFEA2403673D00E87A54 /* Assets.xcassets */; };
+		7E97BFEE2403673D00E87A54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E97BFEC2403673D00E87A54 /* LaunchScreen.storyboard */; };
+		7E97BFF12403673D00E87A54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E97BFF02403673D00E87A54 /* main.m */; };
+		7E97C06524036FC700E87A54 /* libopencore-amrwb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E97C00224036FC700E87A54 /* libopencore-amrwb.a */; };
+		7E97C06624036FC700E87A54 /* libopencore-amrnb.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E97C00324036FC700E87A54 /* libopencore-amrnb.a */; };
+		7E97C06724036FC700E87A54 /* amrFileCodec.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E97C00424036FC700E87A54 /* amrFileCodec.m */; };
+		7E97C06824036FC700E87A54 /* LPSMorePanelItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E97C00924036FC700E87A54 /* LPSMorePanelItem.m */; };
+		7E97C06924036FC700E87A54 /* LPSMorePanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E97C00A24036FC700E87A54 /* LPSMorePanelView.m */; };
+		7E97C06A24036FC700E87A54 /* NSBundle+LPSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E97C00C24036FC700E87A54 /* NSBundle+LPSExtension.m */; };
+		7E97C06B24036FC700E87A54 /* UIImage+imageBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E97C00D24036FC700E87A54 /* UIImage+imageBundle.m */; };
+		7E97C06D24036FC700E87A54 /* UIColor+LPSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E97C01124036FC700E87A54 /* UIColor+LPSExtension.m */; };
+		7E97C07124036FC700E87A54 /* UIView+LPSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E97C01A24036FC700E87A54 /* UIView+LPSExtension.m */; };
+		7E97C07224036FC700E87A54 /* NSString+LPSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E97C01C24036FC700E87A54 /* NSString+LPSExtension.m */; };
+		7E97C07324036FC700E87A54 /* NSAttributedString+LPSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E97C01E24036FC700E87A54 /* NSAttributedString+LPSExtension.m */; };
+		7E97C07524036FC700E87A54 /* PPQueuingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E97C02324036FC700E87A54 /* PPQueuingScrollView.m */; };
+		7E97C07624036FC700E87A54 /* NSAttributedString+PPAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E97C02424036FC700E87A54 /* NSAttributedString+PPAddition.m */; };
+		7E97C07724036FC700E87A54 /* UIScreen+PPAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E97C02724036FC700E87A54 /* UIScreen+PPAddition.m */; };
+		7E97C07824036FC700E87A54 /* UIScrollView+PPAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E97C02824036FC700E87A54 /* UIScrollView+PPAddition.m */; };
+		7E97C07924036FC700E87A54 /* UIColor+PPAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E97C02924036FC700E87A54 /* UIColor+PPAddition.m */; };
+		7E97C07A24036FC700E87A54 /* PPTextBackedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E97C02A24036FC700E87A54 /* PPTextBackedString.m */; };
+		7E97C07B24036FC700E87A54 /* NSString+PPAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E97C02E24036FC700E87A54 /* NSString+PPAddition.m */; };
+		7E97C07C24036FC700E87A54 /* PPSlideLineButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E97C02F24036FC700E87A54 /* PPSlideLineButton.m */; };
+		7E97C07D24036FC700E87A54 /* UIButton+PPAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E97C03424036FC700E87A54 /* UIButton+PPAddition.m */; };
+		7E97C07E24036FC700E87A54 /* PPStickerDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E97C03B24036FC700E87A54 /* PPStickerDataManager.m */; };
+		7E97C07F24036FC700E87A54 /* PPEmoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E97C03C24036FC700E87A54 /* PPEmoji.m */; };
+		7E97C08024036FC700E87A54 /* PPSticker.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E97C03D24036FC700E87A54 /* PPSticker.m */; };
+		7E97C08124036FC700E87A54 /* PPEmojiPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E97C03F24036FC700E87A54 /* PPEmojiPreviewView.m */; };
+		7E97C08224036FC700E87A54 /* PPStickerPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E97C04024036FC700E87A54 /* PPStickerPageView.m */; };
+		7E97C08324036FC700E87A54 /* PPStickerTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E97C04124036FC700E87A54 /* PPStickerTextView.m */; };
+		7E97C08424036FC700E87A54 /* PPStickerKeyboard.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E97C04224036FC700E87A54 /* PPStickerKeyboard.m */; };
+		7E97C08524036FC700E87A54 /* LPSChatKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E97C04624036FC700E87A54 /* LPSChatKeyBoard.m */; };
+		7E97C08624036FC700E87A54 /* LPSAudioPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E97C04A24036FC700E87A54 /* LPSAudioPlayer.m */; };
+		7E97C08724036FC700E87A54 /* LPSSoundRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E97C04C24036FC700E87A54 /* LPSSoundRecorder.m */; };
+		7E97C08924036FC700E87A54 /* LPSVoiceRecordToastContentView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E97C05824036FC700E87A54 /* LPSVoiceRecordToastContentView.m */; };
+		7E97C08A24036FC700E87A54 /* LPSVoiceRecordControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E97C05924036FC700E87A54 /* LPSVoiceRecordControl.m */; };
+		7E97C08B24036FC700E87A54 /* LPSVoiceRecordView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E97C05A24036FC700E87A54 /* LPSVoiceRecordView.m */; };
+		7E97C08C24036FC700E87A54 /* LPSRecordButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E97C05B24036FC700E87A54 /* LPSRecordButton.m */; };
+		7E97C08D24036FC700E87A54 /* LPSVoiceRecordPowerAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E97C05C24036FC700E87A54 /* LPSVoiceRecordPowerAnimationView.m */; };
+		7E97C08F24036FC700E87A54 /* WXOUIModuleResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7E97C06224036FC700E87A54 /* WXOUIModuleResources.bundle */; };
+		7E97C09024036FC700E87A54 /* IMResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7E97C06324036FC700E87A54 /* IMResource.bundle */; };
+		7E97C09B2403721200E87A54 /* LPSChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E97C09A2403721200E87A54 /* LPSChatViewController.m */; };
+		7E97C09E2403728400E87A54 /* LPSUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E97C09D2403728400E87A54 /* LPSUtilities.m */; };
+		7E97C0A62403B1A100E87A54 /* LPSMsgTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E97C0A52403B1A100E87A54 /* LPSMsgTextCell.m */; };
+		D20C3B15EF033F0E65C0FA5F /* libPods-WeChat-KeyboardDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92EA9293EABD61C31A439E5C /* libPods-WeChat-KeyboardDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7E97BFDB2403673B00E87A54 /* WeChat-KeyboardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WeChat-KeyboardDemo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E97BFDE2403673B00E87A54 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7E97BFDF2403673B00E87A54 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7E97BFE42403673B00E87A54 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7E97BFE52403673B00E87A54 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7E97BFEA2403673D00E87A54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E97BFED2403673D00E87A54 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E97BFEF2403673D00E87A54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E97BFF02403673D00E87A54 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7E97BFF924036FC700E87A54 /* amrFileCodec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = amrFileCodec.h; sourceTree = "<group>"; };
+		7E97BFFC24036FC700E87A54 /* if_rom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = if_rom.h; sourceTree = "<group>"; };
+		7E97BFFD24036FC700E87A54 /* dec_if.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dec_if.h; sourceTree = "<group>"; };
+		7E97BFFF24036FC700E87A54 /* interf_dec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_dec.h; sourceTree = "<group>"; };
+		7E97C00024036FC700E87A54 /* interf_enc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = interf_enc.h; sourceTree = "<group>"; };
+		7E97C00224036FC700E87A54 /* libopencore-amrwb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrwb.a"; sourceTree = "<group>"; };
+		7E97C00324036FC700E87A54 /* libopencore-amrnb.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = "libopencore-amrnb.a"; sourceTree = "<group>"; };
+		7E97C00424036FC700E87A54 /* amrFileCodec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = amrFileCodec.m; sourceTree = "<group>"; };
+		7E97C00524036FC700E87A54 /* LPSChatKeyBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPSChatKeyBoard.h; sourceTree = "<group>"; };
+		7E97C00724036FC700E87A54 /* LPSMorePanelItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPSMorePanelItem.h; sourceTree = "<group>"; };
+		7E97C00824036FC700E87A54 /* LPSMorePanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPSMorePanelView.h; sourceTree = "<group>"; };
+		7E97C00924036FC700E87A54 /* LPSMorePanelItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPSMorePanelItem.m; sourceTree = "<group>"; };
+		7E97C00A24036FC700E87A54 /* LPSMorePanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPSMorePanelView.m; sourceTree = "<group>"; };
+		7E97C00C24036FC700E87A54 /* NSBundle+LPSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSBundle+LPSExtension.m"; sourceTree = "<group>"; };
+		7E97C00D24036FC700E87A54 /* UIImage+imageBundle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+imageBundle.m"; sourceTree = "<group>"; };
+		7E97C01024036FC700E87A54 /* UIView+LPSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LPSExtension.h"; sourceTree = "<group>"; };
+		7E97C01124036FC700E87A54 /* UIColor+LPSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+LPSExtension.m"; sourceTree = "<group>"; };
+		7E97C01324036FC700E87A54 /* NSString+LPSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+LPSExtension.h"; sourceTree = "<group>"; };
+		7E97C01424036FC700E87A54 /* NSAttributedString+LPSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+LPSExtension.h"; sourceTree = "<group>"; };
+		7E97C01724036FC700E87A54 /* UIImage+imageBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+imageBundle.h"; sourceTree = "<group>"; };
+		7E97C01824036FC700E87A54 /* NSBundle+LPSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSBundle+LPSExtension.h"; sourceTree = "<group>"; };
+		7E97C01924036FC700E87A54 /* UIColor+LPSExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+LPSExtension.h"; sourceTree = "<group>"; };
+		7E97C01A24036FC700E87A54 /* UIView+LPSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LPSExtension.m"; sourceTree = "<group>"; };
+		7E97C01C24036FC700E87A54 /* NSString+LPSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+LPSExtension.m"; sourceTree = "<group>"; };
+		7E97C01E24036FC700E87A54 /* NSAttributedString+LPSExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+LPSExtension.m"; sourceTree = "<group>"; };
+		7E97C02324036FC700E87A54 /* PPQueuingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPQueuingScrollView.m; sourceTree = "<group>"; };
+		7E97C02424036FC700E87A54 /* NSAttributedString+PPAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSAttributedString+PPAddition.m"; sourceTree = "<group>"; };
+		7E97C02524036FC700E87A54 /* PPSlideLineButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPSlideLineButton.h; sourceTree = "<group>"; };
+		7E97C02624036FC700E87A54 /* NSString+PPAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+PPAddition.h"; sourceTree = "<group>"; };
+		7E97C02724036FC700E87A54 /* UIScreen+PPAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScreen+PPAddition.m"; sourceTree = "<group>"; };
+		7E97C02824036FC700E87A54 /* UIScrollView+PPAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+PPAddition.m"; sourceTree = "<group>"; };
+		7E97C02924036FC700E87A54 /* UIColor+PPAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+PPAddition.m"; sourceTree = "<group>"; };
+		7E97C02A24036FC700E87A54 /* PPTextBackedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPTextBackedString.m; sourceTree = "<group>"; };
+		7E97C02B24036FC700E87A54 /* UIButton+PPAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+PPAddition.h"; sourceTree = "<group>"; };
+		7E97C02C24036FC700E87A54 /* PPQueuingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPQueuingScrollView.h; sourceTree = "<group>"; };
+		7E97C02D24036FC700E87A54 /* PPReusablePage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPReusablePage.h; sourceTree = "<group>"; };
+		7E97C02E24036FC700E87A54 /* NSString+PPAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+PPAddition.m"; sourceTree = "<group>"; };
+		7E97C02F24036FC700E87A54 /* PPSlideLineButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPSlideLineButton.m; sourceTree = "<group>"; };
+		7E97C03024036FC700E87A54 /* NSAttributedString+PPAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSAttributedString+PPAddition.h"; sourceTree = "<group>"; };
+		7E97C03124036FC700E87A54 /* UIScrollView+PPAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+PPAddition.h"; sourceTree = "<group>"; };
+		7E97C03224036FC700E87A54 /* UIScreen+PPAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScreen+PPAddition.h"; sourceTree = "<group>"; };
+		7E97C03324036FC700E87A54 /* PPUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPUtil.h; sourceTree = "<group>"; };
+		7E97C03424036FC700E87A54 /* UIButton+PPAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+PPAddition.m"; sourceTree = "<group>"; };
+		7E97C03524036FC700E87A54 /* PPTextBackedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPTextBackedString.h; sourceTree = "<group>"; };
+		7E97C03624036FC700E87A54 /* UIColor+PPAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+PPAddition.h"; sourceTree = "<group>"; };
+		7E97C03824036FC700E87A54 /* PPStickerTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPStickerTextView.h; sourceTree = "<group>"; };
+		7E97C03924036FC700E87A54 /* PPStickerPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPStickerPageView.h; sourceTree = "<group>"; };
+		7E97C03A24036FC700E87A54 /* PPEmojiPreviewView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPEmojiPreviewView.h; sourceTree = "<group>"; };
+		7E97C03B24036FC700E87A54 /* PPStickerDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPStickerDataManager.m; sourceTree = "<group>"; };
+		7E97C03C24036FC700E87A54 /* PPEmoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPEmoji.m; sourceTree = "<group>"; };
+		7E97C03D24036FC700E87A54 /* PPSticker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPSticker.m; sourceTree = "<group>"; };
+		7E97C03E24036FC700E87A54 /* PPStickerKeyboard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPStickerKeyboard.h; sourceTree = "<group>"; };
+		7E97C03F24036FC700E87A54 /* PPEmojiPreviewView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPEmojiPreviewView.m; sourceTree = "<group>"; };
+		7E97C04024036FC700E87A54 /* PPStickerPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPStickerPageView.m; sourceTree = "<group>"; };
+		7E97C04124036FC700E87A54 /* PPStickerTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPStickerTextView.m; sourceTree = "<group>"; };
+		7E97C04224036FC700E87A54 /* PPStickerKeyboard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPStickerKeyboard.m; sourceTree = "<group>"; };
+		7E97C04324036FC700E87A54 /* PPSticker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPSticker.h; sourceTree = "<group>"; };
+		7E97C04424036FC700E87A54 /* PPEmoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPEmoji.h; sourceTree = "<group>"; };
+		7E97C04524036FC700E87A54 /* PPStickerDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPStickerDataManager.h; sourceTree = "<group>"; };
+		7E97C04624036FC700E87A54 /* LPSChatKeyBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPSChatKeyBoard.m; sourceTree = "<group>"; };
+		7E97C04A24036FC700E87A54 /* LPSAudioPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPSAudioPlayer.m; sourceTree = "<group>"; };
+		7E97C04B24036FC700E87A54 /* LPSSoundRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPSSoundRecorder.h; sourceTree = "<group>"; };
+		7E97C04C24036FC700E87A54 /* LPSSoundRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPSSoundRecorder.m; sourceTree = "<group>"; };
+		7E97C04D24036FC700E87A54 /* LPSAudioPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPSAudioPlayer.h; sourceTree = "<group>"; };
+		7E97C05224036FC700E87A54 /* LPSVoiceRecordToastContentView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPSVoiceRecordToastContentView.h; sourceTree = "<group>"; };
+		7E97C05324036FC700E87A54 /* LPSVoiceRecordView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPSVoiceRecordView.h; sourceTree = "<group>"; };
+		7E97C05424036FC700E87A54 /* LPSVoiceRecordDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPSVoiceRecordDefine.h; sourceTree = "<group>"; };
+		7E97C05524036FC700E87A54 /* LPSVoiceRecordControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPSVoiceRecordControl.h; sourceTree = "<group>"; };
+		7E97C05624036FC700E87A54 /* LPSVoiceRecordPowerAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPSVoiceRecordPowerAnimationView.h; sourceTree = "<group>"; };
+		7E97C05724036FC700E87A54 /* LPSRecordButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPSRecordButton.h; sourceTree = "<group>"; };
+		7E97C05824036FC700E87A54 /* LPSVoiceRecordToastContentView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPSVoiceRecordToastContentView.m; sourceTree = "<group>"; };
+		7E97C05924036FC700E87A54 /* LPSVoiceRecordControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPSVoiceRecordControl.m; sourceTree = "<group>"; };
+		7E97C05A24036FC700E87A54 /* LPSVoiceRecordView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPSVoiceRecordView.m; sourceTree = "<group>"; };
+		7E97C05B24036FC700E87A54 /* LPSRecordButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPSRecordButton.m; sourceTree = "<group>"; };
+		7E97C05C24036FC700E87A54 /* LPSVoiceRecordPowerAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPSVoiceRecordPowerAnimationView.m; sourceTree = "<group>"; };
+		7E97C06224036FC700E87A54 /* WXOUIModuleResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WXOUIModuleResources.bundle; sourceTree = "<group>"; };
+		7E97C06324036FC700E87A54 /* IMResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = IMResource.bundle; sourceTree = "<group>"; };
+		7E97C09124036FD700E87A54 /* Marcos.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Marcos.h; sourceTree = "<group>"; };
+		7E97C09424036FD700E87A54 /* Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		7E97C0992403721200E87A54 /* LPSChatViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPSChatViewController.h; sourceTree = "<group>"; };
+		7E97C09A2403721200E87A54 /* LPSChatViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPSChatViewController.m; sourceTree = "<group>"; };
+		7E97C09C2403728400E87A54 /* LPSUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPSUtilities.h; sourceTree = "<group>"; };
+		7E97C09D2403728400E87A54 /* LPSUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPSUtilities.m; sourceTree = "<group>"; };
+		7E97C09F240377C400E87A54 /* LPSChatKeyboardDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPSChatKeyboardDelegate.h; sourceTree = "<group>"; };
+		7E97C0A02403793600E87A54 /* LPSChatMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPSChatMacros.h; sourceTree = "<group>"; };
+		7E97C0A42403B1A100E87A54 /* LPSMsgTextCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LPSMsgTextCell.h; sourceTree = "<group>"; };
+		7E97C0A52403B1A100E87A54 /* LPSMsgTextCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LPSMsgTextCell.m; sourceTree = "<group>"; };
+		92EA9293EABD61C31A439E5C /* libPods-WeChat-KeyboardDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeChat-KeyboardDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F377B3B988E24E4BB487D0A2 /* Pods-WeChat-KeyboardDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeChat-KeyboardDemo.release.xcconfig"; path = "Target Support Files/Pods-WeChat-KeyboardDemo/Pods-WeChat-KeyboardDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F424C31145B1B84CEC1E2DAB /* Pods-WeChat-KeyboardDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeChat-KeyboardDemo.debug.xcconfig"; path = "Target Support Files/Pods-WeChat-KeyboardDemo/Pods-WeChat-KeyboardDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E97BFD82403673B00E87A54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E97C06524036FC700E87A54 /* libopencore-amrwb.a in Frameworks */,
+				7E97C06624036FC700E87A54 /* libopencore-amrnb.a in Frameworks */,
+				D20C3B15EF033F0E65C0FA5F /* libPods-WeChat-KeyboardDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A18C4887E3DC30EF749F0F0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F424C31145B1B84CEC1E2DAB /* Pods-WeChat-KeyboardDemo.debug.xcconfig */,
+				F377B3B988E24E4BB487D0A2 /* Pods-WeChat-KeyboardDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7E97BFD22403673B00E87A54 = {
+			isa = PBXGroup;
+			children = (
+				7E97BFDD2403673B00E87A54 /* WeChat-KeyboardDemo */,
+				7E97BFDC2403673B00E87A54 /* Products */,
+				6A18C4887E3DC30EF749F0F0 /* Pods */,
+				B2AD6CBE8CBE0954466A528D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7E97BFDC2403673B00E87A54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E97BFDB2403673B00E87A54 /* WeChat-KeyboardDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E97BFDD2403673B00E87A54 /* WeChat-KeyboardDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7E97BFF724036FC700E87A54 /* Keyboard */,
+				7E97BFDE2403673B00E87A54 /* AppDelegate.h */,
+				7E97BFDF2403673B00E87A54 /* AppDelegate.m */,
+				7E97BFE42403673B00E87A54 /* ViewController.h */,
+				7E97BFE52403673B00E87A54 /* ViewController.m */,
+				7E97C0992403721200E87A54 /* LPSChatViewController.h */,
+				7E97C09A2403721200E87A54 /* LPSChatViewController.m */,
+				7E97C0A42403B1A100E87A54 /* LPSMsgTextCell.h */,
+				7E97C0A52403B1A100E87A54 /* LPSMsgTextCell.m */,
+				7E97C09124036FD700E87A54 /* Marcos.h */,
+				7E97C09424036FD700E87A54 /* Prefix.pch */,
+				7E97BFEA2403673D00E87A54 /* Assets.xcassets */,
+				7E97BFEC2403673D00E87A54 /* LaunchScreen.storyboard */,
+				7E97BFEF2403673D00E87A54 /* Info.plist */,
+				7E97BFF02403673D00E87A54 /* main.m */,
+			);
+			path = "WeChat-KeyboardDemo";
+			sourceTree = "<group>";
+		};
+		7E97BFF724036FC700E87A54 /* Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				7E97C00524036FC700E87A54 /* LPSChatKeyBoard.h */,
+				7E97C04624036FC700E87A54 /* LPSChatKeyBoard.m */,
+				7E97C09F240377C400E87A54 /* LPSChatKeyboardDelegate.h */,
+				7E97C0A02403793600E87A54 /* LPSChatMacros.h */,
+				7E97BFF824036FC700E87A54 /* AMR */,
+				7E97C00624036FC700E87A54 /* MoreView */,
+				7E97C00B24036FC700E87A54 /* Category */,
+				7E97C02124036FC700E87A54 /* FaceView */,
+				7E97C04724036FC700E87A54 /* Common */,
+				7E97C04924036FC700E87A54 /* Audio */,
+				7E97C05124036FC700E87A54 /* VoiceRecord */,
+				7E97C06124036FC700E87A54 /* Resourece */,
+			);
+			path = Keyboard;
+			sourceTree = "<group>";
+		};
+		7E97BFF824036FC700E87A54 /* AMR */ = {
+			isa = PBXGroup;
+			children = (
+				7E97BFF924036FC700E87A54 /* amrFileCodec.h */,
+				7E97BFFA24036FC700E87A54 /* include */,
+				7E97C00124036FC700E87A54 /* lib */,
+				7E97C00424036FC700E87A54 /* amrFileCodec.m */,
+			);
+			path = AMR;
+			sourceTree = "<group>";
+		};
+		7E97BFFA24036FC700E87A54 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				7E97BFFB24036FC700E87A54 /* opencore-amrwb */,
+				7E97BFFE24036FC700E87A54 /* opencore-amrnb */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		7E97BFFB24036FC700E87A54 /* opencore-amrwb */ = {
+			isa = PBXGroup;
+			children = (
+				7E97BFFC24036FC700E87A54 /* if_rom.h */,
+				7E97BFFD24036FC700E87A54 /* dec_if.h */,
+			);
+			path = "opencore-amrwb";
+			sourceTree = "<group>";
+		};
+		7E97BFFE24036FC700E87A54 /* opencore-amrnb */ = {
+			isa = PBXGroup;
+			children = (
+				7E97BFFF24036FC700E87A54 /* interf_dec.h */,
+				7E97C00024036FC700E87A54 /* interf_enc.h */,
+			);
+			path = "opencore-amrnb";
+			sourceTree = "<group>";
+		};
+		7E97C00124036FC700E87A54 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				7E97C00224036FC700E87A54 /* libopencore-amrwb.a */,
+				7E97C00324036FC700E87A54 /* libopencore-amrnb.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		7E97C00624036FC700E87A54 /* MoreView */ = {
+			isa = PBXGroup;
+			children = (
+				7E97C00724036FC700E87A54 /* LPSMorePanelItem.h */,
+				7E97C00824036FC700E87A54 /* LPSMorePanelView.h */,
+				7E97C00924036FC700E87A54 /* LPSMorePanelItem.m */,
+				7E97C00A24036FC700E87A54 /* LPSMorePanelView.m */,
+			);
+			path = MoreView;
+			sourceTree = "<group>";
+		};
+		7E97C00B24036FC700E87A54 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				7E97C01024036FC700E87A54 /* UIView+LPSExtension.h */,
+				7E97C01A24036FC700E87A54 /* UIView+LPSExtension.m */,
+				7E97C01824036FC700E87A54 /* NSBundle+LPSExtension.h */,
+				7E97C00C24036FC700E87A54 /* NSBundle+LPSExtension.m */,
+				7E97C01724036FC700E87A54 /* UIImage+imageBundle.h */,
+				7E97C00D24036FC700E87A54 /* UIImage+imageBundle.m */,
+				7E97C01924036FC700E87A54 /* UIColor+LPSExtension.h */,
+				7E97C01124036FC700E87A54 /* UIColor+LPSExtension.m */,
+				7E97C01324036FC700E87A54 /* NSString+LPSExtension.h */,
+				7E97C01C24036FC700E87A54 /* NSString+LPSExtension.m */,
+				7E97C01424036FC700E87A54 /* NSAttributedString+LPSExtension.h */,
+				7E97C01E24036FC700E87A54 /* NSAttributedString+LPSExtension.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		7E97C02124036FC700E87A54 /* FaceView */ = {
+			isa = PBXGroup;
+			children = (
+				7E97C02224036FC700E87A54 /* Util */,
+				7E97C03724036FC700E87A54 /* PPKeyboard */,
+			);
+			path = FaceView;
+			sourceTree = "<group>";
+		};
+		7E97C02224036FC700E87A54 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				7E97C03324036FC700E87A54 /* PPUtil.h */,
+				7E97C02C24036FC700E87A54 /* PPQueuingScrollView.h */,
+				7E97C02324036FC700E87A54 /* PPQueuingScrollView.m */,
+				7E97C02D24036FC700E87A54 /* PPReusablePage.h */,
+				7E97C02524036FC700E87A54 /* PPSlideLineButton.h */,
+				7E97C02F24036FC700E87A54 /* PPSlideLineButton.m */,
+				7E97C03524036FC700E87A54 /* PPTextBackedString.h */,
+				7E97C02A24036FC700E87A54 /* PPTextBackedString.m */,
+				7E97C03024036FC700E87A54 /* NSAttributedString+PPAddition.h */,
+				7E97C02424036FC700E87A54 /* NSAttributedString+PPAddition.m */,
+				7E97C02624036FC700E87A54 /* NSString+PPAddition.h */,
+				7E97C02724036FC700E87A54 /* UIScreen+PPAddition.m */,
+				7E97C03124036FC700E87A54 /* UIScrollView+PPAddition.h */,
+				7E97C02824036FC700E87A54 /* UIScrollView+PPAddition.m */,
+				7E97C03624036FC700E87A54 /* UIColor+PPAddition.h */,
+				7E97C02924036FC700E87A54 /* UIColor+PPAddition.m */,
+				7E97C02B24036FC700E87A54 /* UIButton+PPAddition.h */,
+				7E97C03424036FC700E87A54 /* UIButton+PPAddition.m */,
+				7E97C03224036FC700E87A54 /* UIScreen+PPAddition.h */,
+				7E97C02E24036FC700E87A54 /* NSString+PPAddition.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		7E97C03724036FC700E87A54 /* PPKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				7E97C04524036FC700E87A54 /* PPStickerDataManager.h */,
+				7E97C03B24036FC700E87A54 /* PPStickerDataManager.m */,
+				7E97C04424036FC700E87A54 /* PPEmoji.h */,
+				7E97C03C24036FC700E87A54 /* PPEmoji.m */,
+				7E97C04324036FC700E87A54 /* PPSticker.h */,
+				7E97C03D24036FC700E87A54 /* PPSticker.m */,
+				7E97C03824036FC700E87A54 /* PPStickerTextView.h */,
+				7E97C04124036FC700E87A54 /* PPStickerTextView.m */,
+				7E97C03924036FC700E87A54 /* PPStickerPageView.h */,
+				7E97C04024036FC700E87A54 /* PPStickerPageView.m */,
+				7E97C03A24036FC700E87A54 /* PPEmojiPreviewView.h */,
+				7E97C03F24036FC700E87A54 /* PPEmojiPreviewView.m */,
+				7E97C03E24036FC700E87A54 /* PPStickerKeyboard.h */,
+				7E97C04224036FC700E87A54 /* PPStickerKeyboard.m */,
+			);
+			path = PPKeyboard;
+			sourceTree = "<group>";
+		};
+		7E97C04724036FC700E87A54 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				7E97C09C2403728400E87A54 /* LPSUtilities.h */,
+				7E97C09D2403728400E87A54 /* LPSUtilities.m */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		7E97C04924036FC700E87A54 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				7E97C04D24036FC700E87A54 /* LPSAudioPlayer.h */,
+				7E97C04A24036FC700E87A54 /* LPSAudioPlayer.m */,
+				7E97C04B24036FC700E87A54 /* LPSSoundRecorder.h */,
+				7E97C04C24036FC700E87A54 /* LPSSoundRecorder.m */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+		7E97C05124036FC700E87A54 /* VoiceRecord */ = {
+			isa = PBXGroup;
+			children = (
+				7E97C05424036FC700E87A54 /* LPSVoiceRecordDefine.h */,
+				7E97C05524036FC700E87A54 /* LPSVoiceRecordControl.h */,
+				7E97C05924036FC700E87A54 /* LPSVoiceRecordControl.m */,
+				7E97C05324036FC700E87A54 /* LPSVoiceRecordView.h */,
+				7E97C05A24036FC700E87A54 /* LPSVoiceRecordView.m */,
+				7E97C05224036FC700E87A54 /* LPSVoiceRecordToastContentView.h */,
+				7E97C05824036FC700E87A54 /* LPSVoiceRecordToastContentView.m */,
+				7E97C05624036FC700E87A54 /* LPSVoiceRecordPowerAnimationView.h */,
+				7E97C05C24036FC700E87A54 /* LPSVoiceRecordPowerAnimationView.m */,
+				7E97C05724036FC700E87A54 /* LPSRecordButton.h */,
+				7E97C05B24036FC700E87A54 /* LPSRecordButton.m */,
+			);
+			path = VoiceRecord;
+			sourceTree = "<group>";
+		};
+		7E97C06124036FC700E87A54 /* Resourece */ = {
+			isa = PBXGroup;
+			children = (
+				7E97C06224036FC700E87A54 /* WXOUIModuleResources.bundle */,
+				7E97C06324036FC700E87A54 /* IMResource.bundle */,
+			);
+			path = Resourece;
+			sourceTree = "<group>";
+		};
+		B2AD6CBE8CBE0954466A528D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92EA9293EABD61C31A439E5C /* libPods-WeChat-KeyboardDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E97BFDA2403673B00E87A54 /* WeChat-KeyboardDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E97BFF42403673D00E87A54 /* Build configuration list for PBXNativeTarget "WeChat-KeyboardDemo" */;
+			buildPhases = (
+				A35902A52F129AAED9F52EC3 /* [CP] Check Pods Manifest.lock */,
+				7E97BFD72403673B00E87A54 /* Sources */,
+				7E97BFD82403673B00E87A54 /* Frameworks */,
+				7E97BFD92403673B00E87A54 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WeChat-KeyboardDemo";
+			productName = "WeChat-KeyboardDemo";
+			productReference = 7E97BFDB2403673B00E87A54 /* WeChat-KeyboardDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E97BFD32403673B00E87A54 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Daniel_Lee;
+				TargetAttributes = {
+					7E97BFDA2403673B00E87A54 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 7E97BFD62403673B00E87A54 /* Build configuration list for PBXProject "WeChat-KeyboardDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E97BFD22403673B00E87A54;
+			productRefGroup = 7E97BFDC2403673B00E87A54 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E97BFDA2403673B00E87A54 /* WeChat-KeyboardDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E97BFD92403673B00E87A54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E97C08F24036FC700E87A54 /* WXOUIModuleResources.bundle in Resources */,
+				7E97C09024036FC700E87A54 /* IMResource.bundle in Resources */,
+				7E97BFEE2403673D00E87A54 /* LaunchScreen.storyboard in Resources */,
+				7E97BFEB2403673D00E87A54 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A35902A52F129AAED9F52EC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WeChat-KeyboardDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E97BFD72403673B00E87A54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E97C07524036FC700E87A54 /* PPQueuingScrollView.m in Sources */,
+				7E97C07924036FC700E87A54 /* UIColor+PPAddition.m in Sources */,
+				7E97C07C24036FC700E87A54 /* PPSlideLineButton.m in Sources */,
+				7E97C08324036FC700E87A54 /* PPStickerTextView.m in Sources */,
+				7E97C07E24036FC700E87A54 /* PPStickerDataManager.m in Sources */,
+				7E97C07824036FC700E87A54 /* UIScrollView+PPAddition.m in Sources */,
+				7E97C08224036FC700E87A54 /* PPStickerPageView.m in Sources */,
+				7E97C06A24036FC700E87A54 /* NSBundle+LPSExtension.m in Sources */,
+				7E97C08624036FC700E87A54 /* LPSAudioPlayer.m in Sources */,
+				7E97C0A62403B1A100E87A54 /* LPSMsgTextCell.m in Sources */,
+				7E97C08024036FC700E87A54 /* PPSticker.m in Sources */,
+				7E97C06B24036FC700E87A54 /* UIImage+imageBundle.m in Sources */,
+				7E97C08924036FC700E87A54 /* LPSVoiceRecordToastContentView.m in Sources */,
+				7E97C09B2403721200E87A54 /* LPSChatViewController.m in Sources */,
+				7E97C07F24036FC700E87A54 /* PPEmoji.m in Sources */,
+				7E97BFE62403673B00E87A54 /* ViewController.m in Sources */,
+				7E97BFE02403673B00E87A54 /* AppDelegate.m in Sources */,
+				7E97C07224036FC700E87A54 /* NSString+LPSExtension.m in Sources */,
+				7E97C07324036FC700E87A54 /* NSAttributedString+LPSExtension.m in Sources */,
+				7E97C08524036FC700E87A54 /* LPSChatKeyBoard.m in Sources */,
+				7E97C08D24036FC700E87A54 /* LPSVoiceRecordPowerAnimationView.m in Sources */,
+				7E97C07D24036FC700E87A54 /* UIButton+PPAddition.m in Sources */,
+				7E97C06924036FC700E87A54 /* LPSMorePanelView.m in Sources */,
+				7E97C08C24036FC700E87A54 /* LPSRecordButton.m in Sources */,
+				7E97C08A24036FC700E87A54 /* LPSVoiceRecordControl.m in Sources */,
+				7E97C08124036FC700E87A54 /* PPEmojiPreviewView.m in Sources */,
+				7E97C07724036FC700E87A54 /* UIScreen+PPAddition.m in Sources */,
+				7E97BFF12403673D00E87A54 /* main.m in Sources */,
+				7E97C07124036FC700E87A54 /* UIView+LPSExtension.m in Sources */,
+				7E97C08B24036FC700E87A54 /* LPSVoiceRecordView.m in Sources */,
+				7E97C08424036FC700E87A54 /* PPStickerKeyboard.m in Sources */,
+				7E97C07624036FC700E87A54 /* NSAttributedString+PPAddition.m in Sources */,
+				7E97C09E2403728400E87A54 /* LPSUtilities.m in Sources */,
+				7E97C06824036FC700E87A54 /* LPSMorePanelItem.m in Sources */,
+				7E97C06724036FC700E87A54 /* amrFileCodec.m in Sources */,
+				7E97C07A24036FC700E87A54 /* PPTextBackedString.m in Sources */,
+				7E97C06D24036FC700E87A54 /* UIColor+LPSExtension.m in Sources */,
+				7E97C07B24036FC700E87A54 /* NSString+PPAddition.m in Sources */,
+				7E97C08724036FC700E87A54 /* LPSSoundRecorder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7E97BFEC2403673D00E87A54 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E97BFED2403673D00E87A54 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E97BFF22403673D00E87A54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7E97BFF32403673D00E87A54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E97BFF52403673D00E87A54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F424C31145B1B84CEC1E2DAB /* Pods-WeChat-KeyboardDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "/Users/daniel_lee/Documents/WeChat-KeyboardDemo/WeChat-KeyboardDemo/Prefix.pch";
+				INFOPLIST_FILE = "WeChat-KeyboardDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WeChat-KeyboardDemo/Keyboard/AMR/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LPS.WeChat-KeyboardDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E97BFF62403673D00E87A54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F377B3B988E24E4BB487D0A2 /* Pods-WeChat-KeyboardDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "/Users/daniel_lee/Documents/WeChat-KeyboardDemo/WeChat-KeyboardDemo/Prefix.pch";
+				INFOPLIST_FILE = "WeChat-KeyboardDemo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/WeChat-KeyboardDemo/Keyboard/AMR/lib",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "LPS.WeChat-KeyboardDemo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E97BFD62403673B00E87A54 /* Build configuration list for PBXProject "WeChat-KeyboardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E97BFF22403673D00E87A54 /* Debug */,
+				7E97BFF32403673D00E87A54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E97BFF42403673D00E87A54 /* Build configuration list for PBXNativeTarget "WeChat-KeyboardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E97BFF52403673D00E87A54 /* Debug */,
+				7E97BFF62403673D00E87A54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E97BFD32403673B00E87A54 /* Project object */;
+}

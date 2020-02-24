@@ -1,0 +1,26 @@
+PODS:
+  - GBDeviceInfo (5.4.0):
+    - GBDeviceInfo/Core (= 5.4.0)
+  - GBDeviceInfo/Core (5.4.0)
+  - YYKeyboardManager (1.0.1)
+  - YYText (1.0.7)
+
+DEPENDENCIES:
+  - GBDeviceInfo (~> 5.4.0)
+  - YYKeyboardManager (~> 1.0.1)
+  - YYText (~> 1.0.7)
+
+SPEC REPOS:
+  trunk:
+    - GBDeviceInfo
+    - YYKeyboardManager
+    - YYText
+
+SPEC CHECKSUMS:
+  GBDeviceInfo: ae80eb4243d67e2c68d9290a136593da35071382
+  YYKeyboardManager: ff53d2e80d1808567a7f004028bd200d9469a89f
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
+
+PODFILE CHECKSUM: b42d692e1cddc19ff78f3a6bff7d9a546f15af83
+
+COCOAPODS: 1.8.3
